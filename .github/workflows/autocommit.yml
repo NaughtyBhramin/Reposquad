@@ -2,7 +2,7 @@ name: Auto Commit
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Every minute (for testing)
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 jobs:
